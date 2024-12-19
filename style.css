@@ -1,0 +1,90 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2b2b2b; /* Dark mode background color */
+}
+
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Enable flexbox for horizontal centering */
+  flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
+  justify-content: center; /* Center items horizontally */
+  gap: 10px; /* Add some spacing between list items */
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px; /* Increased horizontal padding for better button look */
+  background-color: #808080; /* Grey background */
+  border-radius: 5px;
+  text-decoration: none;
+  color: white; /* White text for contrast on grey */
+  transition: background-color 0.3s ease;
+  border: none; /* Remove default border */
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.no-text span {
+  display: none;
+}
+header {
+  background-color: #323232; /* Adjust if needed for dark mode contrast */
+  padding: 20px;
+  text-align: center;
+  color: #6a6a6a; /* Text color for header */
+}
+
+h1 {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #575757;  
+  border-radius: 5px;  
+  cursor: pointer;
+  background-color: #45454500;  
+  color: #6a6a6a;  
+}
+
+.button h2 {
+  margin: 5px;
+}
+
+.button img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Add CSS styles for dark mode here (e.g., background-color for body, button colors, text color) */
+
